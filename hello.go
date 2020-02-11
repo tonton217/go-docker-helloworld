@@ -6,6 +6,8 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello, world")
-	time.Sleep(1 * time.Second)
+	for {
+		fmt.Println("Hello, world")
+		time.Sleep(1 * time.Second)
+	}
 }
